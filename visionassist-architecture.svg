@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <!-- Hintergrund -->
+  <rect width="900" height="900" fill="#F9F9F9" />
+  
+  <!-- Titel -->
+  <text x="450" y="50" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#333">VisionAssist Systemarchitektur</text>
+  
+  <!-- 1. NUTZERINTERAKTIONSSCHICHT -->
+  <rect x="50" y="100" width="800" height="120" rx="10" fill="#E3F2FD" stroke="#1565C0" stroke-width="2" />
+  <text x="450" y="130" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle" fill="#1565C0">1. Nutzerinteraktionsschicht</text>
+  
+  <!-- Nutzerinteraktionsschicht-Elemente -->
+  <rect x="80" y="150" width="130" height="50" rx="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1" />
+  <text x="145" y="180" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Spracheingabe</text>
+  
+  <rect x="220" y="150" width="130" height="50" rx="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1" />
+  <text x="285" y="180" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Tastatureingabe</text>
+  
+  <rect x="360" y="150" width="130" height="50" rx="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1" />
+  <text x="425" y="180" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Touch/Gesten</text>
+  
+  <rect x="500" y="150" width="130" height="50" rx="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1" />
+  <text x="565" y="180" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Braillezeile</text>
+  
+  <rect x="640" y="150" width="130" height="50" rx="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1" />
+  <text x="705" y="180" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Sprachausgabe</text>
+  
+  <!-- 2. KI-ASSISTENTIN -->
+  <rect x="50" y="240" width="800" height="120" rx="10" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2" />
+  <text x="450" y="270" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E7D32">2. KI-Assistentin</text>
+  
+  <!-- KI-Assistentin-Elemente -->
+  <rect x="80" y="290" width="180" height="50" rx="5" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1" />
+  <text x="170" y="320" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Dialogmanagement</text>
+  
+  <rect x="270" y="290" width="180" height="50" rx="5" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1" />
+  <text x="360" y="320" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Entscheidungslogik</text>
+  
+  <rect x="460" y="290" width="180" height="50" rx="5" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1" />
+  <text x="550" y="320" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Nutzerprofilverwaltung</text>
+  
+  <rect x="650" y="290" width="180" height="50" rx="5" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1" />
+  <text x="740" y="320" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Kontextgedächtnis</text>
+  
+  <!-- 3. KI-KERNMODULE -->
+  <rect x="50" y="380" width="800" height="170" rx="10" fill="#FFF3E0" stroke="#E65100" stroke-width="2" />
+  <text x="450" y="410" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle" fill="#E65100">3. KI-Kernmodule</text>
+  
+  <!-- KI-Kernmodule-Elemente -->
+  <rect x="70" y="430" width="150" height="100" rx="5" fill="#FFE0B2" stroke="#E65100" stroke-width="1" />
+  <text x="145" y="460" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Sprachverständnis</text>
+  <text x="145" y="480" font-family="Arial" font-size="12" text-anchor="middle">(Whisper, BERT)</text>
+  <text x="145" y="500" font-family="Arial" font-size="12" text-anchor="middle">Intent-Erkennung</text>
+  <text x="145" y="520" font-family="Arial" font-size="12" text-anchor="middle">Entity-Extraktion</text>
+  
+  <rect x="230" y="430" width="150" height="100" rx="5" fill="#FFE0B2" stroke="#E65100" stroke-width="1" />
+  <text x="305" y="460" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Kontextanalyse</text>
+  <text x="305" y="480" font-family="Arial" font-size="12" text-anchor="middle">Semantisches Parsing</text>
+  <text x="305" y="500" font-family="Arial" font-size="12" text-anchor="middle">Konversationskontext</text>
+  <text x="305" y="520" font-family="Arial" font-size="12" text-anchor="middle">Situationseinordnung</text>
+  
+  <rect x="390" y="430" width="150" height="100" rx="5" fill="#FFE0B2" stroke="#E65100" stroke-width="1" />
+  <text x="465" y="460" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Content-Analyse</text>
+  <text x="465" y="480" font-family="Arial" font-size="12" text-anchor="middle">UI-Interpretation</text>
+  <text x="465" y="500" font-family="Arial" font-size="12" text-anchor="middle">Bilderkennung</text>
+  <text x="465" y="520" font-family="Arial" font-size="12" text-anchor="middle">Dokumentanalyse</text>
+  
+  <rect x="550" y="430" width="150" height="100" rx="5" fill="#FFE0B2" stroke="#E65100" stroke-width="1" />
+  <text x="625" y="460" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Lernmodul</text>
+  <text x="625" y="480" font-family="Arial" font-size="12" text-anchor="middle">Verhaltensanalyse</text>
+  <text x="625" y="500" font-family="Arial" font-size="12" text-anchor="middle">Adaptives Lernen</text>
+  <text x="625" y="520" font-family="Arial" font-size="12" text-anchor="middle">Präferenzoptimierung</text>
+  
+  <rect x="710" y="430" width="120" height="100" rx="5" fill="#FFE0B2" stroke="#E65100" stroke-width="1" />
+  <text x="770" y="460" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Automation</text>
+  <text x="770" y="480" font-family="Arial" font-size="12" text-anchor="middle">Workflow-Engine</text>
+  <text x="770" y="500" font-family="Arial" font-size="12" text-anchor="middle">Aktionssequenzen</text>
+  <text x="770" y="520" font-family="Arial" font-size="12" text-anchor="middle">Trigger-Erkennung</text>
+  
+  <!-- 4. ANWENDUNGSINTEGRATION -->
+  <rect x="50" y="570" width="800" height="170" rx="10" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="2" />
+  <text x="450" y="600" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle" fill="#6A1B9A">4. Anwendungsintegration</text>
+  
+  <!-- Anwendungsintegration-Elemente -->
+  <rect x="70" y="620" width="120" height="100" rx="5" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1" />
+  <text x="130" y="645" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Web-Browser</text>
+  <text x="130" y="665" font-family="Arial" font-size="12" text-anchor="middle">ARIA-Analyse</text>
+  <text x="130" y="685" font-family="Arial" font-size="12" text-anchor="middle">Webinhaltsfilter</text>
+  <text x="130" y="705" font-family="Arial" font-size="12" text-anchor="middle">Navigation</text>
+  
+  <rect x="200" y="620" width="120" height="100" rx="5" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1" />
+  <text x="260" y="645" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Office-Suite</text>
+  <text x="260" y="665" font-family="Arial" font-size="12" text-anchor="middle">Dokument-API</text>
+  <text x="260" y="685" font-family="Arial" font-size="12" text-anchor="middle">Textextraktion</text>
+  <text x="260" y="705" font-family="Arial" font-size="12" text-anchor="middle">Bearbeitung</text>
+  
+  <rect x="330" y="620" width="120" height="100" rx="5" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1" />
+  <text x="390" y="645" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">E-Mail/Komm.</text>
+  <text x="390" y="665" font-family="Arial" font-size="12" text-anchor="middle">Nachrichtenfilter</text>
+  <text x="390" y="685" font-family="Arial" font-size="12" text-anchor="middle">Zusammenfassung</text>
+  <text x="390" y="705" font-family="Arial" font-size="12" text-anchor="middle">Antworthilfe</text>
+  
+  <rect x="460" y="620" width="120" height="100" rx="5" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1" />
+  <text x="520" y="645" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Medien-Apps</text>
+  <text x="520" y="665" font-family="Arial" font-size="12" text-anchor="middle">Videobeschreibung</text>
+  <text x="520" y="685" font-family="Arial" font-size="12" text-anchor="middle">Audio-Interface</text>
+  <text x="520" y="705" font-family="Arial" font-size="12" text-anchor="middle">Steuerung</text>
+  
+  <rect x="590" y="620" width="120" height="100" rx="5" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1" />
+  <text x="650" y="645" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">OS-Integration</text>
+  <text x="650" y="665" font-family="Arial" font-size="12" text-anchor="middle">Windows-API</text>
+  <text x="650" y="685" font-family="Arial" font-size="12" text-anchor="middle">UI-Automation</text>
+  <text x="650" y="705" font-family="Arial" font-size="12" text-anchor="middle">Systemzugriff</text>
+  
+  <rect x="720" y="620" width="120" height="100" rx="5" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1" />
+  <text x="780" y="645" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">IoT-Steuerung</text>
+  <text x="780" y="665" font-family="Arial" font-size="12" text-anchor="middle">Smart Home</text>
+  <text x="780" y="685" font-family="Arial" font-size="12" text-anchor="middle">Geräteverwaltung</text>
+  <text x="780" y="705" font-family="Arial" font-size="12" text-anchor="middle">MQTT/REST</text>
+  
+  <!-- 5. BASISINFRASTRUKTUR -->
+  <rect x="50" y="760" width="800" height="120" rx="10" fill="#ECEFF1" stroke="#263238" stroke-width="2" />
+  <text x="450" y="790" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle" fill="#263238">5. Basisinfrastruktur</text>
+  
+  <!-- Basisinfrastruktur-Elemente -->
+  <rect x="70" y="810" width="180" height="50" rx="5" fill="#CFD8DC" stroke="#263238" stroke-width="1" />
+  <text x="160" y="840" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Datenhaltung/Caching</text>
+  
+  <rect x="260" y="810" width="180" height="50" rx="5" fill="#CFD8DC" stroke="#263238" stroke-width="1" />
+  <text x="350" y="840" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Modellverwaltung</text>
+  
+  <rect x="450" y="810" width="180" height="50" rx="5" fill="#CFD8DC" stroke="#263238" stroke-width="1" />
+  <text x="540" y="840" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Sicherheit/Datenschutz</text>
+  
+  <rect x="640" y="810" width="180" height="50" rx="5" fill="#CFD8DC" stroke="#263238" stroke-width="1" />
+  <text x="730" y="840" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Logging/Diagnose</text>
+  
+  <!-- Verbindungslinien -->
+  <!-- 1 zu 2 -->
+  <path d="M450 220 L450 240" stroke="#333" stroke-width="3" fill="none" />
+  <polygon points="440,230 450,240 460,230" fill="#333" />
+  
+  <!-- 2 zu 3 -->
+  <path d="M450 360 L450 380" stroke="#333" stroke-width="3" fill="none" />
+  <polygon points="440,370 450,380 460,370" fill="#333" />
+  
+  <!-- 3 zu 4 -->
+  <path d="M450 550 L450 570" stroke="#333" stroke-width="3" fill="none" />
+  <polygon points="440,560 450,570 460,560" fill="#333" />
+  
+  <!-- 4 zu 5 -->
+  <path d="M450 740 L450 760" stroke="#333" stroke-width="3" fill="none" />
+  <polygon points="440,750 450,760 460,750" fill="#333" />
+  
+  <!-- Seitenverbindungen -->
+  <!-- KI-Kernmodule zu KI-Assistentin (Feedback) -->
+  <path d="M800 480 L850 480 L850 300 L800 300" stroke="#333" stroke-width="2" fill="none" stroke-dasharray="5,3" />
+  <polygon points="810,295 800,300 810,305" fill="#333" />
+  
+  <!-- Anwendungsintegration zu KI-Kernmodule (Daten) -->
+  <path d="M50 670 L20 670 L20 480 L50 480" stroke="#333" stroke-width="2" fill="none" stroke-dasharray="5,3" />
+  <polygon points="40,475 50,480 40,485" fill="#333" />
+  
+  <!-- Basisinfrastruktur zu allen (unterstützend) -->
+  <path d="M870 820 L880 820 L880 300 L800 300" stroke="#333" stroke-width="1" fill="none" stroke-dasharray="3,2" />
+  <path d="M870 820 L880 820 L880 480 L800 480" stroke="#333" stroke-width="1" fill="none" stroke-dasharray="3,2" />
+  <path d="M870 820 L880 820 L880 670 L800 670" stroke="#333" stroke-width="1" fill="none" stroke-dasharray="3,2" />
+
+  <!-- Legende -->
+  <rect x="720" y="50" width="120" height="30" rx="5" fill="#BBDEFB" stroke="#333" stroke-width="1" />
+  <text x="780" y="70" font-family="Arial" font-size="12" text-anchor="middle">Komponenten</text>
+  
+  <line x1="700" y1="65" x2="715" y2="65" stroke="#333" stroke-width="3" />
+  <polygon points="710,60 715,65 710,70" fill="#333" />
+  <text x="685" y="70" font-family="Arial" font-size="12" text-anchor="end">Datenfluss</text>
+  
+  <line x1="650" y1="65" x2="665" y2="65" stroke="#333" stroke-width="1" stroke-dasharray="5,3" />
+  <text x="635" y="70" font-family="Arial" font-size="12" text-anchor="end">Feedback</text>
+</svg>
