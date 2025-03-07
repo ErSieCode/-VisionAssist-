@@ -1,0 +1,393 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 2100">
+  <!-- Hintergrund -->
+  <rect width="2400" height="2100" fill="#F9F9F9" />
+
+  <!-- Titel -->
+  <text x="1200" y="80" font-family="Arial" font-size="48" font-weight="bold" text-anchor="middle"
+    fill="#333">IntegrAssist Systemarchitektur</text>
+  <text x="1200" y="130" font-family="Arial" font-size="24" text-anchor="middle"
+    fill="#333">Digitale Selbstständigkeit für blinde und sehbehinderte Menschen</text>
+
+  <!-- Definieren von Pfeilspitzen für Linien mit korrekten Farben -->
+  <defs>
+    <!-- PC zu Hardware-Komponenten (braun) -->
+    <marker id="arrowPC" markerWidth="10" markerHeight="7" refX="15" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8B4513" />
+    </marker>
+    
+    <!-- Hardware zu Hardware (schwarz) -->
+    <marker id="arrowHW" markerWidth="10" markerHeight="7" refX="15" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+    
+    <!-- Alltägliche Selbstständigkeit (blau) -->
+    <marker id="arrowAS" markerWidth="10" markerHeight="7" refX="15" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1565C0" />
+    </marker>
+    
+    <!-- Nahtlose Gerätebedienung (grün) -->
+    <marker id="arrowNG" markerWidth="10" markerHeight="7" refX="15" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2E7D32" />
+    </marker>
+    
+    <!-- Digitale Teilhabe (orange) -->
+    <marker id="arrowDT" markerWidth="10" markerHeight="7" refX="15" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#E65100" />
+    </marker>
+    
+    <!-- Berufliche Teilhabe (lila) -->
+    <marker id="arrowBT" markerWidth="10" markerHeight="7" refX="15" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6A1B9A" />
+    </marker>
+    
+    <!-- Technische Basis (türkis) -->
+    <marker id="arrowTB" markerWidth="10" markerHeight="7" refX="15" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#006064" />
+    </marker>
+    
+    <!-- Vision & Kernkonzept (hellblau) -->
+    <marker id="arrowVK" markerWidth="10" markerHeight="7" refX="15" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0097A7" />
+    </marker>
+  </defs>
+
+  <!-- Zentrale Komponente: PC-System & KI-Agent -->
+  <rect x="800" y="880" width="800" height="280" rx="20" fill="#EFDECD" stroke="#8B4513"
+    stroke-width="4" />
+  <text x="1200" y="930" font-family="Arial" font-size="32" font-weight="bold" text-anchor="middle"
+    fill="#8B4513">PC-System & KI-Agent</text>
+  <text x="1200" y="970" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#8B4513">Windows PC mit Core i7/Ryzen 7, RTX 2080 für KI-Beschleunigung</text>
+  <text x="1200" y="1000" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#8B4513">Lokales Sprachmodell (Mistral-7B/Llama-2-7B)</text>
+  <text x="1200" y="1030" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#8B4513">Lokale Spracherkennung (Whisper)</text>
+  <text x="1200" y="1060" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#8B4513">Visuelle Erkennungsmodelle und persönliches Lernmodell</text>
+  <text x="1200" y="1090" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#8B4513">Ein-/Ausgabe: Mikrofon, Lautsprecher, Braillezeile</text>
+  <text x="1200" y="1120" font-family="Arial" font-size="18" text-anchor="middle" 
+    fill="#8B4513">Lokale Datenverarbeitung für maximalen Datenschutz</text>
+  
+  <!-- ---------- HARDWARE-KOMPONENTEN (LINKE SEITE) ---------- -->
+  <text x="350" y="250" font-family="Arial" font-size="32" font-weight="bold" text-anchor="middle"
+    fill="#333">Hardware-Komponenten</text>
+    
+  <!-- Mobile Komponenten -->
+  <rect x="50" y="300" width="500" height="220" rx="20" fill="#FFE4B5" stroke="#CD853F"
+    stroke-width="3" />
+  <text x="300" y="340" font-family="Arial" font-size="26" font-weight="bold" text-anchor="middle"
+    fill="#CD853F">Mobile Komponenten</text>
+  <text x="300" y="380" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#CD853F">Samsung Smartphone & Tablet (Android 10+)</text>
+  <text x="300" y="410" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#CD853F">Mind. 6 GB RAM, hochauflösende Kamera</text>
+  <text x="300" y="440" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#CD853F">GPS für Navigationshilfe</text>
+  <text x="300" y="470" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#CD853F">Verbindung: WiFi, Bluetooth, 5G</text>
+
+  <!-- Eingabegeräte -->
+  <rect x="50" y="570" width="500" height="220" rx="20" fill="#B0E0E6" stroke="#4682B4"
+    stroke-width="3" />
+  <text x="300" y="610" font-family="Arial" font-size="26" font-weight="bold" text-anchor="middle"
+    fill="#4682B4">Eingabegeräte</text>
+  <text x="300" y="650" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#4682B4">Hochwertiges Mikrofonarray</text>
+  <text x="300" y="680" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#4682B4">Spezielle taktile Eingabegeräte</text>
+  <text x="300" y="710" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#4682B4">Braillezeile für taktile Rückmeldung</text>
+  <text x="300" y="740" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#4682B4">Verbindung: USB/Bluetooth</text>
+
+  <!-- Audioausgabe-System -->
+  <rect x="50" y="840" width="500" height="220" rx="20" fill="#E1BEE7" stroke="#4A148C"
+    stroke-width="3" />
+  <text x="300" y="880" font-family="Arial" font-size="26" font-weight="bold" text-anchor="middle"
+    fill="#4A148C">Audioausgabe-System</text>
+  <text x="300" y="920" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#4A148C">Hochwertige Sprachsynthese</text>
+  <text x="300" y="950" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#4A148C">Räumlicher Klang für Orientierung</text>
+  <text x="300" y="980" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#4A148C">Adaptive Lautstärke und Geschwindigkeit</text>
+  <text x="300" y="1010" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#4A148C">Tech: TTS-Engine, 3D-Audio, Sprachprofile</text>
+
+  <!-- ---------- HARDWARE-KOMPONENTEN (RECHTE SEITE) ---------- -->
+  <text x="2050" y="250" font-family="Arial" font-size="32" font-weight="bold" text-anchor="middle"
+    fill="#333">IoT & Smart Home</text>
+
+  <!-- IoT-Komponenten -->
+  <rect x="1850" y="300" width="500" height="220" rx="20" fill="#D8BFD8" stroke="#9370DB"
+    stroke-width="3" />
+  <text x="2100" y="340" font-family="Arial" font-size="26" font-weight="bold" text-anchor="middle"
+    fill="#9370DB">Smart Home Geräte</text>
+  <text x="2100" y="380" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#9370DB">Philips Hue, Alexa, Google Home</text>
+  <text x="2100" y="410" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#9370DB">Smarte Haushaltsgeräte (Staubsauger, etc.)</text>
+  <text x="2100" y="440" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#9370DB">Sensornetzwerke für Automatisierung</text>
+  <text x="2100" y="470" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#9370DB">Kommunikation: MQTT, Zigbee, Z-Wave</text>
+
+  <!-- Spezial-Hardware -->
+  <rect x="1850" y="570" width="500" height="220" rx="20" fill="#DCEDC8" stroke="#33691E"
+    stroke-width="3" />
+  <text x="2100" y="610" font-family="Arial" font-size="26" font-weight="bold" text-anchor="middle"
+    fill="#33691E">Spezial-Hardware</text>
+  <text x="2100" y="650" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#33691E">ESP32/Raspberry Pi für Spezialfunktionen</text>
+  <text x="2100" y="680" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#33691E">Haptisches Feedback-System</text>
+  <text x="2100" y="710" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#33691E">Kamerasysteme für Umgebungserkennung</text>
+  <text x="2100" y="740" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#33691E">Verbindung: WiFi, Bluetooth, USB</text>
+
+  <!-- Netzwerk-Infrastruktur -->
+  <rect x="1850" y="840" width="500" height="220" rx="20" fill="#B3E5FC" stroke="#01579B"
+    stroke-width="3" />
+  <text x="2100" y="880" font-family="Arial" font-size="26" font-weight="bold" text-anchor="middle"
+    fill="#01579B">Netzwerk-Infrastruktur</text>
+  <text x="2100" y="920" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#01579B">WLAN-Router mit Mesh-Funktion</text>
+  <text x="2100" y="950" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#01579B">Lokaler Server für Datenspeicherung</text>
+  <text x="2100" y="980" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#01579B">VPN für sichere Außenverbindungen</text>
+  <text x="2100" y="1010" font-family="Arial" font-size="18" text-anchor="middle"
+    fill="#01579B">Firewall und Netzwerksicherheit</text>
+
+  <!-- ---------- SOFTWARE-FUNKTIONEN (OBERE HÄLFTE) ---------- -->
+  <text x="1200" y="250" font-family="Arial" font-size="32" font-weight="bold" text-anchor="middle"
+    fill="#333">Software-Funktionen</text>
+    
+  <!-- Alltägliche Selbstständigkeit -->
+  <rect x="675" y="300" width="350" height="200" rx="20" fill="#E3F2FD" stroke="#1565C0"
+    stroke-width="3" />
+  <text x="850" y="340" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle"
+    fill="#1565C0">Alltägliche Selbstständigkeit</text>
+  <text x="850" y="375" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#1565C0">Online-Einkauf & Lokale Einkäufe</text>
+  <text x="850" y="405" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#1565C0">Smart Home Steuerung</text>
+  <text x="850" y="435" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#1565C0">Essensplanung & Haushaltorganisation</text>
+
+  <!-- Nahtlose Gerätebedienung -->
+  <rect x="1075" y="300" width="350" height="200" rx="20" fill="#E8F5E9" stroke="#2E7D32"
+    stroke-width="3" />
+  <text x="1250" y="340" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle"
+    fill="#2E7D32">Nahtlose Gerätebedienung</text>
+  <text x="1250" y="375" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#2E7D32">Geräteübergreifende Nutzung</text>
+  <text x="1250" y="405" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#2E7D32">Intuitive Steuerung von Elektronik</text>
+  <text x="1250" y="435" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#2E7D32">Intelligente Umgebungsanpassung</text>
+
+  <!-- Digitale Teilhabe -->
+  <rect x="1475" y="300" width="350" height="200" rx="20" fill="#FFF3E0" stroke="#E65100"
+    stroke-width="3" />
+  <text x="1650" y="340" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle"
+    fill="#E65100">Digitale Teilhabe</text>
+  <text x="1650" y="375" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#E65100">Barrierefreier Internetzugang</text>
+  <text x="1650" y="405" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#E65100">Effektive Nutzung sozialer Medien</text>
+  <text x="1650" y="435" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#E65100">Barrierefreies E-Mail-Management</text>
+
+  <!-- Berufliche Teilhabe -->
+  <rect x="675" y="550" width="350" height="200" rx="20" fill="#F3E5F5" stroke="#6A1B9A"
+    stroke-width="3" />
+  <text x="850" y="590" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle"
+    fill="#6A1B9A">Berufliche Teilhabe</text>
+  <text x="850" y="625" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#6A1B9A">Komplexe Softwarebedienung</text>
+  <text x="850" y="655" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#6A1B9A">Dokumentenerstellung/-formatierung</text>
+  <text x="850" y="685" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#6A1B9A">Kreative Arbeit & Medienproduktion</text>
+
+  <!-- Unterstützende Funktionen -->
+  <rect x="1075" y="550" width="350" height="200" rx="20" fill="#E1BEE7" stroke="#6A1B9A"
+    stroke-width="3" />
+  <text x="1250" y="590" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle"
+    fill="#6A1B9A">Unterstützende Funktionen</text>
+  <text x="1250" y="625" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#6A1B9A">Visuelle Interpretation</text>
+  <text x="1250" y="655" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#6A1B9A">Orientierung und Navigation</text>
+  <text x="1250" y="685" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#6A1B9A">Assistierte Leseunterstützung</text>
+
+  <!-- Technische Basis -->
+  <rect x="1475" y="550" width="350" height="200" rx="20" fill="#E0F7FA" stroke="#006064"
+    stroke-width="3" />
+  <text x="1650" y="590" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle"
+    fill="#006064">Technische Basis</text>
+  <text x="1650" y="625" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#006064">Lokale KI-Verarbeitung</text>
+  <text x="1650" y="655" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#006064">Windows-Integration</text>
+  <text x="1650" y="685" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#006064">Geräteübergreifende Synchronisation</text>
+
+  <!-- ---------- MANAGEMENT & SUPPORT (UNTERE HÄLFTE) ---------- -->
+  <text x="1200" y="1300" font-family="Arial" font-size="32" font-weight="bold" text-anchor="middle"
+    fill="#333">Management & Support</text>
+
+  <!-- Datenschutz und Sicherheit -->
+  <rect x="675" y="1350" width="350" height="200" rx="20" fill="#E8F5E9" stroke="#2E7D32"
+    stroke-width="3" />
+  <text x="850" y="1390" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle"
+    fill="#2E7D32">Datenschutz & Sicherheit</text>
+  <text x="850" y="1425" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#2E7D32">Privacy by Design</text>
+  <text x="850" y="1455" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#2E7D32">Datensparsamkeit, Transparenz</text>
+  <text x="850" y="1485" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#2E7D32">AES-256, TLS 1.3 Verschlüsselung</text>
+
+  <!-- Einrichtung und Support -->
+  <rect x="1075" y="1350" width="350" height="200" rx="20" fill="#FFF3E0" stroke="#E65100"
+    stroke-width="3" />
+  <text x="1250" y="1390" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle"
+    fill="#E65100">Einrichtung & Support</text>
+  <text x="1250" y="1425" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#E65100">Sprachgesteuerter Installationsprozess</text>
+  <text x="1250" y="1455" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#E65100">Kontextsensitive Hilfe</text>
+  <text x="1250" y="1485" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#E65100">Lernmodus für Systemfunktionen</text>
+
+  <!-- Implementierungsroadmap -->
+  <rect x="1475" y="1350" width="350" height="200" rx="20" fill="#BBDEFB" stroke="#1565C0"
+    stroke-width="3" />
+  <text x="1650" y="1390" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle"
+    fill="#1565C0">Implementierungsroadmap</text>
+  <text x="1650" y="1425" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#1565C0">Phase 1-2: Basisinfrastruktur & KI-Kern</text>
+  <text x="1650" y="1455" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#1565C0">Phase 3-4: Anwendung & Konnektivität</text>
+  <text x="1650" y="1485" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#1565C0">Phase 5-6: IoT-Integration & Optimierung</text>
+
+  <!-- Vision und Kernkonzept -->
+  <rect x="1075" y="1600" width="350" height="200" rx="20" fill="#B2EBF2" stroke="#0097A7"
+    stroke-width="3" />
+  <text x="1250" y="1640" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle"
+    fill="#0097A7">Vision & Kernkonzept</text>
+  <text x="1250" y="1675" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#0097A7">Intelligenter digitaler Begleiter</text>
+  <text x="1250" y="1705" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#0097A7">KI-Agentin als Vermittlerin</text>
+  <text x="1250" y="1735" font-family="Arial" font-size="16" text-anchor="middle"
+    fill="#0097A7">Primäre Interaktion über Sprache</text>
+
+  <!-- ========== VERBINDUNGSLINIEN ========== -->
+  
+  <!-- PC zu Hardware-Komponenten links -->
+  <!-- PC zu Mobile -->
+  <path d="M790 950 L590 950 L590 410 L560 410" stroke="#8B4513" stroke-width="3" fill="none" marker-end="url(#arrowPC)" />
+  
+  <!-- PC zu Eingabegeräte -->
+  <path d="M790 990 L570 990 L570 680 L560 680" stroke="#8B4513" stroke-width="3" fill="none" marker-end="url(#arrowPC)" />
+  
+  <!-- PC zu Audioausgabe -->
+  <path d="M790 1030 L560 1030 L560 950" stroke="#8B4513" stroke-width="3" fill="none" marker-end="url(#arrowPC)" />
+  
+  <!-- PC zu Hardware-Komponenten rechts -->
+  <!-- PC zu Smart Home -->
+  <path d="M1610 950 L1800 950 L1800 410 L1840 410" stroke="#8B4513" stroke-width="3" fill="none" marker-end="url(#arrowPC)" />
+  
+  <!-- PC zu Spezial-Hardware -->
+  <path d="M1610 990 L1820 990 L1820 680 L1840 680" stroke="#8B4513" stroke-width="3" fill="none" marker-end="url(#arrowPC)" />
+  
+  <!-- PC zu Netzwerk -->
+  <path d="M1610 1030 L1840 1030 L1840 950" stroke="#8B4513" stroke-width="3" fill="none" marker-end="url(#arrowPC)" />
+  
+  <!-- Mobile zu IoT (Hardware-Hardware-Verbindung) -->
+  <path d="M560 360 L625 360 L625 180 L1775 180 L1775 360 L1840 360" stroke="#333" stroke-width="2" stroke-dasharray="6,3" fill="none" marker-end="url(#arrowHW)" />
+  
+  <!-- Eingabegeräte zu Audioausgabe (Hardware-Hardware-Verbindung) -->
+  <path d="M300 800 L300 830" stroke="#333" stroke-width="2" stroke-dasharray="6,3" fill="none" marker-end="url(#arrowHW)" />
+  
+  <!-- Spezial-Hardware zu Netzwerk (Hardware-Hardware-Verbindung) -->
+  <path d="M2100 800 L2100 830" stroke="#333" stroke-width="2" stroke-dasharray="6,3" fill="none" marker-end="url(#arrowHW)" />
+  
+  <!-- PC zu Software-Funktionen -->
+  <!-- PC zu Alltägliche Selbstständigkeit -->
+  <path d="M1000 870 L1000 750 L850 750 L850 510" stroke="#1565C0" stroke-width="2.5" stroke-dasharray="9,4" fill="none" marker-end="url(#arrowAS)" />
+  
+  <!-- PC zu Nahtlose Gerätebedienung -->
+  <path d="M1120 870 L1120 730 L1250 730 L1250 510" stroke="#2E7D32" stroke-width="2.5" stroke-dasharray="9,4" fill="none" marker-end="url(#arrowNG)" />
+  
+  <!-- PC zu Digitale Teilhabe -->
+  <path d="M1280 870 L1280 730 L1650 730 L1650 510" stroke="#E65100" stroke-width="2.5" stroke-dasharray="9,4" fill="none" marker-end="url(#arrowDT)" />
+  
+  <!-- PC zu Berufliche Teilhabe -->
+  <path d="M1000 1170 L1000 1230 L680 1230 L680 760 L835 760" stroke="#6A1B9A" stroke-width="2.5" stroke-dasharray="9,4" fill="none" marker-end="url(#arrowBT)" />
+  
+  <!-- PC zu Unterstützende Funktionen -->
+  <path d="M1200 1170 L1200 1230 L1060 1230 L1060 760 L1235 760" stroke="#6A1B9A" stroke-width="2.5" stroke-dasharray="9,4" fill="none" marker-end="url(#arrowBT)" />
+  
+  <!-- PC zu Technische Basis -->
+  <path d="M1400 1170 L1400 1230 L1720 1230 L1720 760 L1635 760" stroke="#006064" stroke-width="2.5" stroke-dasharray="9,4" fill="none" marker-end="url(#arrowTB)" />
+  
+  <!-- PC zu Management & Support -->
+  <!-- PC zu Datenschutz -->
+  <path d="M1050 1170 L1050 1350 L835 1350" stroke="#2E7D32" stroke-width="2.5" stroke-dasharray="9,4" fill="none" marker-end="url(#arrowNG)" />
+  
+  <!-- PC zu Einrichtung -->
+  <path d="M1200 1170 L1200 1340" stroke="#E65100" stroke-width="2.5" stroke-dasharray="9,4" fill="none" marker-end="url(#arrowDT)" />
+  
+  <!-- PC zu Implementierung -->
+  <path d="M1350 1170 L1350 1350 L1465 1350" stroke="#1565C0" stroke-width="2.5" stroke-dasharray="9,4" fill="none" marker-end="url(#arrowAS)" />
+  
+  <!-- PC zu Vision -->
+  <path d="M1200 1170 L1200 1590" stroke="#0097A7" stroke-width="2.5" stroke-dasharray="9,4" fill="none" marker-end="url(#arrowVK)" />
+  
+  <!-- Verbindungen zwischen Software-Komponenten -->
+  <!-- Alltägliche Selbstständigkeit zu Nahtlose Gerätebedienung -->
+  <path d="M1035 400 L1065 400" stroke="#1565C0" stroke-width="2" fill="none" marker-end="url(#arrowAS)" />
+  
+  <!-- Nahtlose Gerätebedienung zu Digitale Teilhabe -->
+  <path d="M1435 400 L1465 400" stroke="#2E7D32" stroke-width="2" fill="none" marker-end="url(#arrowNG)" />
+  
+  <!-- Berufliche Teilhabe zu Unterstützende Funktionen -->
+  <path d="M1035 650 L1065 650" stroke="#6A1B9A" stroke-width="2" fill="none" marker-end="url(#arrowBT)" />
+  
+  <!-- Unterstützende Funktionen zu Technische Basis -->
+  <path d="M1435 650 L1465 650" stroke="#6A1B9A" stroke-width="2" fill="none" marker-end="url(#arrowBT)" />
+  
+  <!-- Datenschutz zu Einrichtung -->
+  <path d="M1035 1450 L1065 1450" stroke="#2E7D32" stroke-width="2" fill="none" marker-end="url(#arrowNG)" />
+  
+  <!-- Einrichtung zu Implementierung -->
+  <path d="M1435 1450 L1465 1450" stroke="#E65100" stroke-width="2" fill="none" marker-end="url(#arrowDT)" />
+  
+  <!-- Legende -->
+  <rect x="700" y="1850" width="1000" height="200" rx="15" fill="#FFFAF0" stroke="#8B4513"
+    stroke-width="2" />
+  <text x="1200" y="1880" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle"
+    fill="#8B4513">Legende</text>
+  
+  <!-- Verbindungstypen in Legende -->
+  <line x1="800" y1="1920" x2="930" y2="1920" stroke="#8B4513" stroke-width="3" />
+  <text x="1300" y="1925" font-family="Arial" font-size="18" fill="#333">PC zu Hardware-Komponenten</text>
+  
+  <line x1="800" y1="1960" x2="930" y2="1960" stroke="#333" stroke-width="2" stroke-dasharray="6,3" />
+  <text x="1300" y="1965" font-family="Arial" font-size="18" fill="#333">Verbindungen zwischen Hardware-Komponenten</text>
+  
+  <line x1="800" y1="2000" x2="930" y2="2000" stroke="#1565C0" stroke-width="2.5" stroke-dasharray="9,4" />
+  <text x="1300" y="2005" font-family="Arial" font-size="18" fill="#333">PC zu Software-Komponenten (farblich angepasst)</text>
+  
+  <polygon points="950,1918 960,1923 950,1928" fill="#8B4513" />
+  <polygon points="950,1958 960,1963 950,1968" fill="#333" />
+  <polygon points="950,1998 960,2003 950,2008" fill="#1565C0" />
+</svg>
