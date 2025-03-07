@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <!-- Hintergrund -->
+  <rect width="900" height="700" fill="#F9F9F9" />
+  
+  <!-- Titel -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#333">VisionAssist Systemarchitektur</text>
+  
+  <!-- Nutzerinteraktionsschicht -->
+  <rect x="50" y="80" width="800" height="100" rx="10" fill="#E3F2FD" stroke="#1565C0" stroke-width="2" />
+  <text x="450" y="110" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565C0">Nutzerinteraktionsschicht</text>
+  
+  <!-- Nutzerinteraktionsschicht-Elemente -->
+  <rect x="80" y="125" width="140" height="45" rx="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1" />
+  <text x="150" y="153" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0D47A1">Spracheingabe</text>
+  
+  <rect x="240" y="125" width="140" height="45" rx="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1" />
+  <text x="310" y="153" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0D47A1">Tastatureingabe</text>
+  
+  <rect x="400" y="125" width="140" height="45" rx="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1" />
+  <text x="470" y="153" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0D47A1">Touch/Gesten</text>
+  
+  <rect x="560" y="125" width="140" height="45" rx="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1" />
+  <text x="630" y="153" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0D47A1">Braillezeile</text>
+  
+  <rect x="720" y="125" width="100" height="45" rx="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1" />
+  <text x="770" y="153" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0D47A1">Sprachausgabe</text>
+  
+  <!-- KI-Assistentin -->
+  <rect x="200" y="200" width="500" height="90" rx="10" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2" />
+  <text x="450" y="235" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2E7D32">KI-Assistentin</text>
+  <text x="450" y="265" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1B5E20">Dialogmanagement | Entscheidungslogik | Nutzerprofil | Kontextgedächtnis</text>
+  
+  <!-- KI-Kernmodule -->
+  <rect x="50" y="310" width="800" height="120" rx="10" fill="#FFF3E0" stroke="#E65100" stroke-width="2" />
+  <text x="450" y="340" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#E65100">KI-Kernmodule</text>
+  
+  <!-- KI-Kernmodule-Elemente -->
+  <rect x="70" y="355" width="140" height="60" rx="5" fill="#FFE0B2" stroke="#E65100" stroke-width="1" />
+  <text x="140" y="380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#BF360C">Sprachverständnis</text>
+  <text x="140" y="400" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#BF360C">NLP-Engine (Whisper)</text>
+  
+  <rect x="230" y="355" width="140" height="60" rx="5" fill="#FFE0B2" stroke="#E65100" stroke-width="1" />
+  <text x="300" y="380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#BF360C">Kontextanalyse</text>
+  <text x="300" y="400" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#BF360C">Semantisches Parsing</text>
+  
+  <rect x="390" y="355" width="140" height="60" rx="5" fill="#FFE0B2" stroke="#E65100" stroke-width="1" />
+  <text x="460" y="380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#BF360C">Content-Analyse</text>
+  <text x="460" y="400" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#BF360C">UI-Interpretation</text>
+  
+  <rect x="550" y="355" width="140" height="60" rx="5" fill="#FFE0B2" stroke="#E65100" stroke-width="1" />
+  <text x="620" y="380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#BF360C">Lernmodul</text>
+  <text x="620" y="400" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#BF360C">Verhaltensanalyse</text>
+  
+  <rect x="710" y="355" width="120" height="60" rx="5" fill="#FFE0B2" stroke="#E65100" stroke-width="1" />
+  <text x="770" y="380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#BF360C">Automation</text>
+  <text x="770" y="400" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#BF360C">Workflow-Engine</text>
+  
+  <!-- Anwendungsintegration -->
+  <rect x="50" y="450" width="800" height="120" rx="10" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="2" />
+  <text x="450" y="480" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#6A1B9A">Anwendungsintegration</text>
+  
+  <!-- Anwendungsintegration-Elemente -->
+  <rect x="70" y="495" width="110" height="60" rx="5" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1" />
+  <text x="125" y="520" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#4A148C">Web-Browser</text>
+  <text x="125" y="540" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4A148C">ARIA-Analyse</text>
+  
+  <rect x="190" y="495" width="110" height="60" rx="5" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1" />
+  <text x="245" y="520" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#4A148C">Office-Suite</text>
+  <text x="245" y="540" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4A148C">Dokument-API</text>
+  
+  <rect x="310" y="495" width="110" height="60" rx="5" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1" />
+  <text x="365" y="520" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#4A148C">Social Media</text>
+  <text x="365" y="540" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4A148C">Platform-APIs</text>
+  
+  <rect x="430" y="495" width="110" height="60" rx="5" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1" />
+  <text x="485" y="520" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#4A148C">Medien-Apps</text>
+  <text x="485" y="540" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4A148C">Videobeschreibung</text>
+  
+  <rect x="550" y="495" width="120" height="60" rx="5" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1" />
+  <text x="610" y="520" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#4A148C">OS-Integration</text>
+  <text x="610" y="540" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4A148C">Win/macOS/Linux</text>
+  
+  <rect x="680" y="495" width="150" height="60" rx="5" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1" />
+  <text x="755" y="520" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#4A148C">IoT-Steuerung</text>
+  <text x="755" y="540" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4A148C">Smart Home Devices</text>
+  
+  <!-- Basisinfrastruktur -->
+  <rect x="50" y="590" width="380" height="90" rx="10" fill="#E0F7FA" stroke="#006064" stroke-width="2" />
+  <text x="240" y="620" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#006064">Lokale Verarbeitung &amp; Caching</text>
+  <text x="240" y="645" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#006064">Lokal: SQLite-DB | RAM-Cache | Quantisierte Modelle | Offline-Betrieb</text>
+  <text x="240" y="665" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#006064">Windows: .NET Framework | Windows-API | UI Automation</text>
+  
+  <rect x="470" y="590" width="380" height="90" rx="10" fill="#FFEBEE" stroke="#B71C1C" stroke-width="2" />
+  <text x="660" y="620" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#B71C1C">Sicherheit &amp; Datenschutz</text>
+  <text x="660" y="645" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#B71C1C">Verschlüsselung: AES-256 | SQLCipher | Win Data Protection API</text>
+  <text x="660" y="665" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#B71C1C">DSGVO-konform | Lokale Verarbeitung | Minimale Datenerhebung</text>
+  
+  <!-- Verbindungslinien -->
+  <!-- Nutzerinteraktionsschicht zu KI-Assistentin -->
+  <path d="M450 180 L450 200" stroke="#333" stroke-width="2" fill="none" />
+  <polygon points="445,195 450,205 455,195" fill="#333" />
+  
+  <!-- KI-Assistentin zu KI-Kernmodule -->
+  <path d="M450 290 L450 310" stroke="#333" stroke-width="2" fill="none" />
+  <polygon points="445,305 450,315 455,305" fill="#333" />
+  
+  <!-- KI-Kernmodule zu Anwendungsintegration -->
+  <path d="M450 430 L450 450" stroke="#333" stroke-width="2" fill="none" />
+  <polygon points="445,445 450,455 455,445" fill="#333" />
+  
+  <!-- Anwendungsintegration zu Basisinfrastruktur -->
+  <path d="M450 570 L450 590" stroke="#333" stroke-width="2" fill="none" stroke-dasharray="5,3" />
+  <path d="M240 570 L240 590" stroke="#333" stroke-width="2" fill="none" stroke-dasharray="5,3" />
+  <path d="M660 570 L660 590" stroke="#333" stroke-width="2" fill="none" stroke-dasharray="5,3" />
+  
+  <!-- Legende -->
+  <rect x="50" y="40" width="160" height="20" rx="3" fill="none" stroke="#333" stroke-width="1" />
+  <text x="130" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Windows-PC-Umgebung</text>
+</svg>
