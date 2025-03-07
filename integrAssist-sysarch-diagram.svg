@@ -55,7 +55,7 @@
   <rect x="800" y="880" width="800" height="280" rx="20" fill="#EFDECD" stroke="#8B4513"
     stroke-width="4" />
   <text x="1200" y="930" font-family="Arial" font-size="32" font-weight="bold" text-anchor="middle"
-    fill="#8B4513">PC-System & KI-Agent</text>
+    fill="#8B4513">PC-System &amp; KI-Agent</text>
   <text x="1200" y="970" font-family="Arial" font-size="18" text-anchor="middle"
     fill="#8B4513">Windows PC mit Core i7/Ryzen 7, RTX 2080 für KI-Beschleunigung</text>
   <text x="1200" y="1000" font-family="Arial" font-size="18" text-anchor="middle"
@@ -69,7 +69,7 @@
   <text x="1200" y="1120" font-family="Arial" font-size="18" text-anchor="middle" 
     fill="#8B4513">Lokale Datenverarbeitung für maximalen Datenschutz</text>
   
-  <!-- ---------- HARDWARE-KOMPONENTEN (LINKE SEITE) ---------- -->
+  <!-- HARDWARE-KOMPONENTEN (LINKE SEITE) -->
   <text x="350" y="250" font-family="Arial" font-size="32" font-weight="bold" text-anchor="middle"
     fill="#333">Hardware-Komponenten</text>
     
@@ -79,7 +79,7 @@
   <text x="300" y="340" font-family="Arial" font-size="26" font-weight="bold" text-anchor="middle"
     fill="#CD853F">Mobile Komponenten</text>
   <text x="300" y="380" font-family="Arial" font-size="18" text-anchor="middle"
-    fill="#CD853F">Samsung Smartphone & Tablet (Android 10+)</text>
+    fill="#CD853F">Samsung Smartphone &amp; Tablet (Android 10+)</text>
   <text x="300" y="410" font-family="Arial" font-size="18" text-anchor="middle"
     fill="#CD853F">Mind. 6 GB RAM, hochauflösende Kamera</text>
   <text x="300" y="440" font-family="Arial" font-size="18" text-anchor="middle"
@@ -115,9 +115,9 @@
   <text x="300" y="1010" font-family="Arial" font-size="18" text-anchor="middle"
     fill="#4A148C">Tech: TTS-Engine, 3D-Audio, Sprachprofile</text>
 
-  <!-- ---------- HARDWARE-KOMPONENTEN (RECHTE SEITE) ---------- -->
+  <!-- HARDWARE-KOMPONENTEN (RECHTE SEITE) -->
   <text x="2050" y="250" font-family="Arial" font-size="32" font-weight="bold" text-anchor="middle"
-    fill="#333">IoT & Smart Home</text>
+    fill="#333">IoT &amp; Smart Home</text>
 
   <!-- IoT-Komponenten -->
   <rect x="1850" y="300" width="500" height="220" rx="20" fill="#D8BFD8" stroke="#9370DB"
@@ -161,7 +161,7 @@
   <text x="2100" y="1010" font-family="Arial" font-size="18" text-anchor="middle"
     fill="#01579B">Firewall und Netzwerksicherheit</text>
 
-  <!-- ---------- SOFTWARE-FUNKTIONEN (OBERE HÄLFTE) ---------- -->
+  <!-- SOFTWARE-FUNKTIONEN (OBERE HÄLFTE) -->
   <text x="1200" y="250" font-family="Arial" font-size="32" font-weight="bold" text-anchor="middle"
     fill="#333">Software-Funktionen</text>
     
@@ -171,11 +171,11 @@
   <text x="850" y="340" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle"
     fill="#1565C0">Alltägliche Selbstständigkeit</text>
   <text x="850" y="375" font-family="Arial" font-size="16" text-anchor="middle"
-    fill="#1565C0">Online-Einkauf & Lokale Einkäufe</text>
+    fill="#1565C0">Online-Einkauf &amp; Lokale Einkäufe</text>
   <text x="850" y="405" font-family="Arial" font-size="16" text-anchor="middle"
     fill="#1565C0">Smart Home Steuerung</text>
   <text x="850" y="435" font-family="Arial" font-size="16" text-anchor="middle"
-    fill="#1565C0">Essensplanung & Haushaltorganisation</text>
+    fill="#1565C0">Essensplanung &amp; Haushaltorganisation</text>
 
   <!-- Nahtlose Gerätebedienung -->
   <rect x="1075" y="300" width="350" height="200" rx="20" fill="#E8F5E9" stroke="#2E7D32"
@@ -211,7 +211,7 @@
   <text x="850" y="655" font-family="Arial" font-size="16" text-anchor="middle"
     fill="#6A1B9A">Dokumentenerstellung/-formatierung</text>
   <text x="850" y="685" font-family="Arial" font-size="16" text-anchor="middle"
-    fill="#6A1B9A">Kreative Arbeit & Medienproduktion</text>
+    fill="#6A1B9A">Kreative Arbeit &amp; Medienproduktion</text>
 
   <!-- Unterstützende Funktionen -->
   <rect x="1075" y="550" width="350" height="200" rx="20" fill="#E1BEE7" stroke="#6A1B9A"
@@ -237,15 +237,15 @@
   <text x="1650" y="685" font-family="Arial" font-size="16" text-anchor="middle"
     fill="#006064">Geräteübergreifende Synchronisation</text>
 
-  <!-- ---------- MANAGEMENT & SUPPORT (UNTERE HÄLFTE) ---------- -->
+  <!-- MANAGEMENT & SUPPORT (UNTERE HÄLFTE) -->
   <text x="1200" y="1300" font-family="Arial" font-size="32" font-weight="bold" text-anchor="middle"
-    fill="#333">Management & Support</text>
+    fill="#333">Management &amp; Support</text>
 
   <!-- Datenschutz und Sicherheit -->
   <rect x="675" y="1350" width="350" height="200" rx="20" fill="#E8F5E9" stroke="#2E7D32"
     stroke-width="3" />
   <text x="850" y="1390" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle"
-    fill="#2E7D32">Datenschutz & Sicherheit</text>
+    fill="#2E7D32">Datenschutz &amp; Sicherheit</text>
   <text x="850" y="1425" font-family="Arial" font-size="16" text-anchor="middle"
     fill="#2E7D32">Privacy by Design</text>
   <text x="850" y="1455" font-family="Arial" font-size="16" text-anchor="middle"
@@ -257,7 +257,7 @@
   <rect x="1075" y="1350" width="350" height="200" rx="20" fill="#FFF3E0" stroke="#E65100"
     stroke-width="3" />
   <text x="1250" y="1390" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle"
-    fill="#E65100">Einrichtung & Support</text>
+    fill="#E65100">Einrichtung &amp; Support</text>
   <text x="1250" y="1425" font-family="Arial" font-size="16" text-anchor="middle"
     fill="#E65100">Sprachgesteuerter Installationsprozess</text>
   <text x="1250" y="1455" font-family="Arial" font-size="16" text-anchor="middle"
@@ -271,17 +271,17 @@
   <text x="1650" y="1390" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle"
     fill="#1565C0">Implementierungsroadmap</text>
   <text x="1650" y="1425" font-family="Arial" font-size="16" text-anchor="middle"
-    fill="#1565C0">Phase 1-2: Basisinfrastruktur & KI-Kern</text>
+    fill="#1565C0">Phase 1-2: Basisinfrastruktur &amp; KI-Kern</text>
   <text x="1650" y="1455" font-family="Arial" font-size="16" text-anchor="middle"
-    fill="#1565C0">Phase 3-4: Anwendung & Konnektivität</text>
+    fill="#1565C0">Phase 3-4: Anwendung &amp; Konnektivität</text>
   <text x="1650" y="1485" font-family="Arial" font-size="16" text-anchor="middle"
-    fill="#1565C0">Phase 5-6: IoT-Integration & Optimierung</text>
+    fill="#1565C0">Phase 5-6: IoT-Integration &amp; Optimierung</text>
 
   <!-- Vision und Kernkonzept -->
   <rect x="1075" y="1600" width="350" height="200" rx="20" fill="#B2EBF2" stroke="#0097A7"
     stroke-width="3" />
   <text x="1250" y="1640" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle"
-    fill="#0097A7">Vision & Kernkonzept</text>
+    fill="#0097A7">Vision &amp; Kernkonzept</text>
   <text x="1250" y="1675" font-family="Arial" font-size="16" text-anchor="middle"
     fill="#0097A7">Intelligenter digitaler Begleiter</text>
   <text x="1250" y="1705" font-family="Arial" font-size="16" text-anchor="middle"
