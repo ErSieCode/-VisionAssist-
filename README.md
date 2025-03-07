@@ -4,7 +4,7 @@
 
 Die VisionAssist-Plattform wird als modulares System implementiert, das primär lokal auf Windows-PCs läuft. Die Architektur besteht aus fünf Hauptschichten:
 
-![VisionAssist-Systemarchitektur](vision-assist-architecture.svg)
+[vision-assist-architecture.svg](https://github.com/ErSieCode/-VisionAssist-/blob/main/visionassist-architecture.svg)
 
 ### 1.1 Hauptkomponenten
 
